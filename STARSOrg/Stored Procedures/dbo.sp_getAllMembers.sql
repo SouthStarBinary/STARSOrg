@@ -1,0 +1,4 @@
+﻿CREATE PROCEDURE [dbo].sp_getAllMembers
+AS
+SELECT * FROM MEMBER
+RETURN 0

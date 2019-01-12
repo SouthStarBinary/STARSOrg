@@ -1,0 +1,4 @@
+﻿CREATE PROCEDURE [dbo].sp_getAllTutors
+AS
+	SELECT * FROM TUTOR_COURSE
+RETURN 0

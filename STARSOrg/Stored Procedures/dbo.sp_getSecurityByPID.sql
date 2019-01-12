@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].sp_getSecurityByPID
+	@PID nvarchar(7)
+AS
+	SELECT * FROM SECURITY
+	WHERE PID = @PID
+RETURN 0

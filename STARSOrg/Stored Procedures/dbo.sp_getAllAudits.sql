@@ -1,0 +1,5 @@
+﻿CREATE PROCEDURE [dbo].sp_getAllAudits
+	
+AS
+	SELECT * FROM AUDIT
+RETURN 0

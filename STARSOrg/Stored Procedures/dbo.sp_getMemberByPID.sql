@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].sp_getMemberByPID
+@pID nvarchar(7)
+AS
+SELECT * FROM MEMBER
+WHERE PID=@pID
+RETURN 0
